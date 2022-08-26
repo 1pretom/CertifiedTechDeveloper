@@ -1,5 +1,5 @@
-	# Design thinking - aula 4
-	### Certified Tech Developer - Digital House
+	Design thinking - aula 4
+	Certified Tech Developer - Digital House
 
 ### Guia de perguntas para fazer aos **usuários** em uma entrevista:
 - De: "Por que as pessoas fazem compras online?"
