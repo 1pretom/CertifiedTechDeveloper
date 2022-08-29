@@ -17,7 +17,7 @@
 
 - no modificador public pode alterar em qualquer lugar, em qualquer classe.
 
-Exemplo de [UML]([https://stackedit.io/](https://github.com/1pretom/CertifiedTechDeveloper/blob/6ea32daeb16d2a2c302c2b097e2f1f25067b4e86/Programacao-Orientada-a-Objetos/Aula8/Clinica-Dr-Lopez-relacoes-de-heranca.drawio.png).
+Exemplo de [UML](https://github.com/1pretom/CertifiedTechDeveloper/blob/6ea32daeb16d2a2c302c2b097e2f1f25067b4e86/Programacao-Orientada-a-Objetos/Aula8/Clinica-Dr-Lopez-relacoes-de-heranca.drawio.png).
 
 
 
