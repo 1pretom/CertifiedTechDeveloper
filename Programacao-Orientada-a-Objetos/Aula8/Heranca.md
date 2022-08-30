@@ -17,6 +17,7 @@
 
 - no modificador public pode alterar em qualquer lugar, em qualquer classe.
 
+Exemplo de [UML](https://stackedit.io/).
 
 
 > Written with [StackEdit](https://stackedit.io/).
