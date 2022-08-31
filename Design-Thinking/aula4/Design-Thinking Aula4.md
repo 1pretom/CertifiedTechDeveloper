@@ -32,3 +32,7 @@ Essas perguntas devem ter um tom mais leve para ajudar o usuário a ficar mais �
 - "Você pode contar um pouco sobre os seus hobbies?"
 - "Com que frequência você usa a internet?"
 - "Com que frequência você faz compras online?"
+<br><br><br>
+	## Sobre o que foi pedido na mesa de trabalho:
+A professora solicitou que criassemos um google forms que tivesse ligação com o tema do mapa de empatia feito na aula passada.
+Questionário esse que pode ser respondido no seguinte [link](https://forms.gle/2ucbaHpgoqEQRby87).
