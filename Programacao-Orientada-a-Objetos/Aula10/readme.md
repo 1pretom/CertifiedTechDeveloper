@@ -6,10 +6,10 @@ Nessa aula foi feita a prática no JAVA de como fazer:
 - Sobrecarga.
 
 Lembrando: para identificar corretamente os tipos de relacionamento entre as classes, devemos lembrar das palavras em *português*:
-- *É um* --> **Herança**
-- *Tem um* ou *usa um* --> **Associação**
-- *Faz parte de* um todo --> **Agregação**
-- *Não existem sem o outro* --> **Composição**
+- *É um* ]----> **Herança**
+- *Tem um* ou *usa um* ----> **Associação**
+- *Faz parte de* um todo ----<> **Agregação**
+- *Não existem sem o outro* ----< o > **Composição**
 
 - Para ler, devemos verificar as setas do UML e fazer as identificações corretas.
 <br><br>
