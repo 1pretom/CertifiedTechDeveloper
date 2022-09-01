@@ -5,7 +5,7 @@ Nessa aula foi feita a prática no JAVA de como fazer:
 - Sobrescrita.
 - Sobrecarga.
 
-Lembrando: para identificar corretamente os tipos de ligação entre as classes, devemos lembrar das palavras em *português*:
+Lembrando: para identificar corretamente os tipos de relacionamento entre as classes, devemos lembrar das palavras em *português*:
 - *É um* --> **Herança**
 - *Tem um* ou *usa um* --> **Associação**
 - *Faz parte de* um todo --> **Agregação**
