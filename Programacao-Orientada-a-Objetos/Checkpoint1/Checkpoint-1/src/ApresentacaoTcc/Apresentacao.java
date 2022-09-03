@@ -10,4 +10,20 @@ public class Apresentacao {
         this.horarioEData = horarioEData;
         this.alunoAnfitriao = alunoAnfitriao;
     }
+
+    public LocalDateTime getHorarioEData() {
+        return horarioEData;
+    }
+
+    public void setHorarioEData(LocalDateTime horarioEData) {
+        this.horarioEData = horarioEData;
+    }
+
+    public Aluno getAlunoAnfitriao() {
+        return alunoAnfitriao;
+    }
+
+    public void setAlunoAnfitriao(Aluno alunoAnfitriao) {
+        this.alunoAnfitriao = alunoAnfitriao;
+    }
 }

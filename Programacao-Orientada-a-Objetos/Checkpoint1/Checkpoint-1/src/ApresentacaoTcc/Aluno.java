@@ -31,6 +31,19 @@ public class Aluno extends Pessoa{
         return quantidadeDeConvidados;
     }
 
+    public String getTituloDoTcc() {
+        return tituloDoTcc;
+    }
 
+    public void setTituloDoTcc(String tituloDoTcc) {
+        this.tituloDoTcc = tituloDoTcc;
+    }
 
+    public boolean isArquivoEnviado() {
+        return arquivoEnviado;
+    }
+
+    public void setArquivoEnviado(boolean arquivoEnviado) {
+        this.arquivoEnviado = arquivoEnviado;
+    }
 }

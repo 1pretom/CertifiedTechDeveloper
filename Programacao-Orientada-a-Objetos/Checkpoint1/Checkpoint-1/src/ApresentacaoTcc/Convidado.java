@@ -20,4 +20,20 @@ public class Convidado extends Pessoa{
             out.println("Ausente");
         }
     }
+
+    public String getConvite() {
+        return convite;
+    }
+
+    public void setConvite(String convite) {
+        this.convite = convite;
+    }
+
+    public boolean isDocumentoEntregue() {
+        return documentoEntregue;
+    }
+
+    public void setDocumentoEntregue(boolean documentoEntregue) {
+        this.documentoEntregue = documentoEntregue;
+    }
 }

@@ -4,12 +4,12 @@ import static java.lang.System.out;
 
 public class Professor extends Pessoa {
     private String disciplina;
-    private boolean tutorDoAluno;
+    private boolean tutorDeAluno;
 
-    public Professor(String nome, String sobrenome, String disciplina, boolean tutorDoAluno) {
+    public Professor(String nome, String sobrenome, String disciplina, boolean tutorDeAluno) {
         super(nome, sobrenome);
         this.disciplina = disciplina;
-        this.tutorDoAluno = tutorDoAluno;
+        this.tutorDeAluno = tutorDeAluno;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class Professor extends Pessoa {
     public int avaliar(int nota ){
         return nota;
     }
-    public boolean aprovar (String aprovado){
+    public boolean aprovar(String aprovado){
         if (aprovado.equals("Sim")){
             return true;
         }else{
@@ -32,4 +32,19 @@ public class Professor extends Pessoa {
         }
     }
 
+    public String getDisciplina() {
+        return disciplina;
+    }
+
+    public void setDisciplina(String disciplina) {
+        this.disciplina = disciplina;
+    }
+
+    public boolean isTutorDeAluno() {
+        return tutorDeAluno;
+    }
+
+    public void setTutorDeAluno(boolean tutorDeAluno) {
+        this.tutorDeAluno = tutorDeAluno;
+    }
 }
