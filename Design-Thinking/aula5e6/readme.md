@@ -25,6 +25,9 @@ O que a minha proto persona tem como objetivo? Quais são suas dores? O que ele(
 Certificar que seu produto está alinhado com todas as expectativas da **proto persona**, listando suas potenciais soluções.<br>
 Após a criação da **proto persona** ainda podem ser editadas informações, ou até novos personagens podem ser criados, caso haja necessidade. É um processo que deve estar presente no dia-a-dia de uma equipe, geralmente impressa ou colada em um local visível e acessível. Assim fica mais fácil revalidar e discutir questões do projeto e se ele está mesmo orientado para que o usuário final tenha a melhor experiência.
 Caso possa ser criada uma persona, as informações da **proto persona** não devem ser descartadas, mas ainda utilizadas para melhorar ainda mais o processo.
+### Exemplo de Proto Persona
+
 
 ## Etapas do Design Thinking
 ![App Screenshot](https://assets.digitalhouse.com/content/br/mkt/abc.png)
+
