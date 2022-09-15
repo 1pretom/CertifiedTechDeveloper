@@ -1,4 +1,4 @@
-# Aulas de testing
+# Aulas 1 e 2 de testing
 
 ## 7 Princípios do Teste de Software
 1. Teste demonstra a presença de defeitos;
@@ -33,6 +33,7 @@
 
 ## O ciclo de vida de um defeito
 
+![app screenshot](https://github.com/1pretom/CertifiedTechDeveloper/blob/main/Testing-1/Ciclo%20de%20vida%20de%20um%20defeito.png?raw=true) 
 
 1. Novo/Inicial * Em teste
 2. Atribuido - Para quem o defeito irá para ser consertado
