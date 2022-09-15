@@ -49,3 +49,5 @@ Erro e defeito que não se repente, não é erro nem defeito.
 Erro - é um mano;
 Defeito - Processo ou definição incorretos, algo não tá funcionando q pode ser provocado por um erro, mas não necessariamente. O que é certo é que o defeito provoca uma falha;
 Falha - algo que vc espera é diferente do que tá acontecendo.
+
+[Template do Ciclo de vida de um defeito.](https://github.com/1pretom/CertifiedTechDeveloper/blob/main/Testing-1/partes-relatorio-de-defeito.pdf) 
