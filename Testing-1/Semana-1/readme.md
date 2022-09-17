@@ -1,10 +1,10 @@
-# Aulas 1 e 2 de testing
+    Aulas 1, 2 e 3 de testing
 
 ## 7 Princípios do Teste de Software
 1. Teste demonstra a presença de defeitos;
     - Não encontrar um defeito não sifnifica que ele não exista;
 2. Teste exaustivo é impossível;
-    - Se for testar absolutamente tudo, vai levar meses até terminar e mesmo assim pode continuar existindo problemas. Quanto mais testar melhor, mas quase nunca é possível testar tudo;
+    - Se for testar absolutamente tudo, vai levar meses até terminar e mesmo assim pode continuar existindo problemas. Quanto mais testar melhor, mas quase nunca é possível testar tudo, o que determina quando parar de procurar é o tempo;
 3. Teste antecipado;
     - Prefenir é melhor que remediar, desde a criação do código é importante que já esteja sendo testado;
 4. Agrupamento de defeitos;
@@ -46,8 +46,12 @@
 
 Erro e defeito que não se repente, não é erro nem defeito.
 
+## Erros, defeitos e falhas
 Erro - é um mano;
 Defeito - Processo ou definição incorretos, algo não tá funcionando q pode ser provocado por um erro, mas não necessariamente. O que é certo é que o defeito provoca uma falha;
 Falha - algo que vc espera é diferente do que tá acontecendo.
 
-[Template do Ciclo de vida de um defeito.](https://github.com/1pretom/CertifiedTechDeveloper/blob/main/Testing-1/partes-relatorio-de-defeito.pdf) 
+[Template do Ciclo de vida de um defeito.](https://github.com/1pretom/CertifiedTechDeveloper/blob/main/Testing-1/Semana-1/partes-relatorio-de-defeito.pdf) 
+
+## O que é teste?
+Processo de execução de um programa com a intenção de encontrar erros.
