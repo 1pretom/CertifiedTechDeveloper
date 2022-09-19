@@ -1,41 +1,26 @@
-    aula 19
-## Design Paterns
-#### Padrões de Projeto
+    Aula 20
 
-Assim como em outras áreas, na programação orientada a objetos também existem padrões que orientam no momento da utilização e criação das funcionalidades para a tecnologia dos softwares. Não é um código pronto, mas sim um modelo padrão para ser seguido a fins de facilitar e melhorar o que é desenvolvido. O **design pattern** conceitualmente deve devinir um nome, o problema, a solução, quando aplicar essa solução e as consequencias dessa solução. E definem as relações e interações entre classes ou objetos, sem especificar os detalhes dos envolvidos. <br>
-São sugestões de como fazer algo, no caso, de como fazer um software ou resolver problemas.
-Ás vezes é vantajoso e às vezes não.
+## Padrão Factory
 
-É dividido em 3 categorias, que são: **Creational, Structural e Behavioural**
-- Creacional ou Criação: visa **abstrair** o processo de como os objetos são criados na aplicação e seus padrões são:
-    - Abstract Factory
-    - Factor Method
-    - Builder
-    - Prototype
-    - Singleton
-- Structural ou Estruturais: lidam com a **composição** de uma classe ou objeto:
-    - Adapter
-    - Bridge
-    - Composite
-    - Decorator
-    - Façade
-    - Flyweight
-    - Proxy
-- Behavioural ou Comportamentais: se tratam das **relações** entre objetos e classes e suas distrubuições de responsabilidade na aplicação:
-    - Interpreter
-    - Template Method
-    - Chain of Responsability
-    - Iterator
-    - Command
-    - Mediator
-    - Memento
-    - Observer
-    - State
-    - Strategy
-    - Visitor
+Cria objetos de uma forma mais genérica.
+É um dos principais padrões de projeto e um dos mais utilizado nas linguagens de programação atuais. Ele tem duas variações:
+- Factory Method
+    - Define uma interface para criar objeto, mas permite que as subclasses decidam qual classe instanciar.
+- Abstract Factory
+    - Fornece interface para famílias de objetos dependentes ou relacionados, mas sem especificar suas classes concretas.
 
+#### Factory Method
+![App Screenshot](https://github.com/1pretom/CertifiedTechDeveloper/blob/main/Programacao-Orientada-a-Objetos/Aula20/factory-method.png?raw=true)
+- Criador abstrato - declara o *factory method* que retorna o objeto da classe Product, este elemento também pode definir uma implementação básica que retorna um objeto de uma classe *ConcreteProduct* básica;
+- ConcreteCreator - sobrescrev eo factory method e retorna um objeto da classe *ConcreteProduct*;
+- Product - define uma interface para os objetos criados pelo factory method;
+- Concrete Product - uma implementação para a interface Product.
 
-#### De forma geral:
-O **Creational** busca fornecer interfaces para criar, copiar objetos e produzir famílias de objetos relacionados sem ter que especificar suas classes concretas. Além de construir objetos complexos passo a passo permitindo usar o mesmo código de construção para diferentes representações e tipos. <br>
-O **Structural** Permite a colaboração de objetos com interfaces incompatíveis. Adiciona novos comportamentos a objetos colocando eles em um envoltório de objetos que contém comportamentos. Permite também que faça divisão e hierarquias separadas para classes ou conjunto de classes que são intimamente ligadas. Abstração e implementação que podem ser desenvolvidas independentemente umas das outras. Outra possibilidade é a de composição em estrutura de árvores e trabalhar com essas estruturas como se fossem objetos individuais.<br>
-Tendo um bom planejamento e utilizando os **design patterns** é possível ter menos bugs e manutenção de código facilidade.
+#### Abstract Method
+![App Screenshot](https://github.com/1pretom/CertifiedTechDeveloper/blob/main/Programacao-Orientada-a-Objetos/Aula20/abstract-method.png?raw=true)
+- Fábrica abstrata - Tem o objetivo de declarar métodos de criação de objetos do tipo *ProdutoAbstrato*, que são implementados por uma classe do tipo *FabricaConcreta*, que estende ou implementa a *FabricaAbstrata*.
+- Produto Abstrato - Declara os métodos que são implementados por classes do tipo *ProdutoConcreto*. *FabricaConcreta* cria internamente um objeto do tipo *ProdutoConcreto*, mas esse objeto é retornado como um *ProdutoAbstrato*.
+- Fábrica Concreta - implementa os métodos declarados em *FabricaAbstrata* criando um objeto do tipo *ProdutoConcreto* e retornando-o como um *ProdutoAbstrato*.
+- Produto concreto - Implementada os métodos declarados em *ProdutoAbstrato* essa é a classe que faz uma instancia concreta ser criada.
+
+###### Conclusão: A proposta do padrão *Factory* é de criar objetos, por isso ele é considerado um padrão criacional. A lógica criacional é encapsulada dentro do factory e/ou é fornecido um método que retorna um novo objeto criado (Padrão Factory Method) ou é delegada a criação do objeto para a subclasse (Padrão Abstract Factory)

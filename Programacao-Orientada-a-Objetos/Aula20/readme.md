@@ -1,26 +1,6 @@
-    Aula 20
+    Aula 21
 
-## Padrão Factory
+# Padrão State
 
-Cria objetos de uma forma mais genérica.
-É um dos principais padrões de projeto e um dos mais utilizado nas linguagens de programação atuais. Ele tem duas variações:
-- Factory Method
-    - Define uma interface para criar objeto, mas permite que as subclasses decidam qual classe instanciar.
-- Abstract Factory
-    - Fornece interface para famílias de objetos dependentes ou relacionados, mas sem especificar suas classes concretas.
-
-#### Factory Method
-![App Screenshot](https://github.com/1pretom/CertifiedTechDeveloper/blob/main/Programacao-Orientada-a-Objetos/Aula20/factory-method.png?raw=true)
-- Criador abstrato - declara o *factory method* que retorna o objeto da classe Product, este elemento também pode definir uma implementação básica que retorna um objeto de uma classe *ConcreteProduct* básica;
-- ConcreteCreator - sobrescrev eo factory method e retorna um objeto da classe *ConcreteProduct*;
-- Product - define uma interface para os objetos criados pelo factory method;
-- Concrete Product - uma implementação para a interface Product.
-
-#### Abstract Method
-![App Screenshot](https://github.com/1pretom/CertifiedTechDeveloper/blob/main/Programacao-Orientada-a-Objetos/Aula20/abstract-method.png?raw=true)
-- Fábrica abstrata - Tem o objetivo de declarar métodos de criação de objetos do tipo *ProdutoAbstrato*, que são implementados por uma classe do tipo *FabricaConcreta*, que estende ou implementa a *FabricaAbstrata*.
-- Produto Abstrato - Declara os métodos que são implementados por classes do tipo *ProdutoConcreto*. *FabricaConcreta* cria internamente um objeto do tipo *ProdutoConcreto*, mas esse objeto é retornado como um *ProdutoAbstrato*.
-- Fábrica Concreta - implementa os métodos declarados em *FabricaAbstrata* criando um objeto do tipo *ProdutoConcreto* e retornando-o como um *ProdutoAbstrato*.
-- Produto concreto - Implementada os métodos declarados em *ProdutoAbstrato* essa é a classe que faz uma instancia concreta ser criada.
-
-###### Conclusão: A proposta do padrão *Factory* é de criar objetos, por isso ele é considerado um padrão criacional. A lógica criacional é encapsulada dentro do factory e/ou é fornecido um método que retorna um novo objeto criado (Padrão Factory Method) ou é delegada a criação do objeto para a subclasse (Padrão Abstract Factory)
+É a forma de fazer um objeto mudar de estado e permitindo que se mova de um estado para o outro.
+Uma classe é implementada para cada estado do objeto e cada classe implementará os métodos responsáveis pelo comportamento que varia de acordo com o estado, assim sempre terá uma referência a um estado e se comunicará com ele para resolver suas responsabilidades. Por exemplo play, pause e stop seriam 3 estados diferentes.
