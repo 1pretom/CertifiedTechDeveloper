@@ -168,7 +168,7 @@ São coletadas informações de atividades concluídas e produtos de teste. Pode
 - Dados relacionados.
 - Incompatibilidade de interface. (na hora de juntar dois códigos, não combinar)
 - Falhas de comunicação entre componentes
-### Teste de sistema
+### Teste de sistema ou end 2 end
 
 **Objetivos específicos**
 - Verificar se os comportamentos funcionais e não funcionais do sistema estão conforme projetado e especificado.
@@ -217,3 +217,12 @@ Ele é um nível de teste que engloba todos os níveis como um todo. Ele é pra 
 ### Teste não funcional
 - Testam "quão bem" o sistema se comporta.
 - O design e a execução de testes não funcionais podem envolver habilidades ou conhecimentos especiais, como o conhecimento de fraquezas inerentes a um design ou tecnologia (por exemplo, vulnerabilidades de segurança associadas a determinadas linguagens de programação).
+
+### Modelos de desenvolvimento de software
+- Método tradicional.
+- Método ágil com as metologias ágeis.
+
+### Teste negativo e positivo
+Teste negativo é pra mostrar que não funciona. No teste negativo, se você testa esperando que dê errado, mas dá certo, tem problema. Quando espera que erra e erre, tá certo.
+
+Teste positivo é pra mostrar que tá acontecendo o que se esperava. No teste positivo, se você testa esperando que dê certo, mas dá errado, tem problema e vira teste negativo. QUando espera que acerta e acerta, tá certo também.
