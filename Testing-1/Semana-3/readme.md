@@ -52,6 +52,33 @@ As revisões consistem em **examinar tudo com cuidado o produto de trabalho** bu
 - Revisões informais: Não seguem um processo definido e não são formalmente documentadas. É definida por você mesmo.
 
 ## Requisitos
+**Requisitos Funcionais:** Definem o que um sistema permite fazer do ponto de vista do usuário. Esses requisitos devem ser explícitamente especifícados
 
+**Exemplo:** O campo quantidade aceita apenas valores numéricos com duas casas decimais (testes funcionais ede sistema).
+
+**Requisitos Não Funcionais:** Definir as condições de operação do sistema no ambiente operacional. 
+
+**Exemplos:**
+- Requisito de usabilidade: Quão fácil vai ser de uma pessoa ao ver, começar a usar
+- Requisito de eficiência: Um exemplo é a quantidade de acessos
+- Requisito de disponibilidade: quantas horas por dia está disponível para ser utilizada, nas terças por volta das 19hrs o cs está indisponível
+- Requisito de confiabilidade: questão ética de acesso e segurança de dados, rede, virus, etc
+- Requisito de integridade: esbarra na confiabilidade dependendo do ponto de vista, um exemplo é: não permitir que sofra alterações nos dados sem a permissão do usuário.
+- Requisito de manutenção: atualização e evoluir a aplicação com ela em movimento, ou derruba que precisa testar? É ver a durabilidade da aplicação.
+
+Existem outros requisitos além desses.
 
 ## Exemplo prático
+
+||Processo de revisão|
+|-|-|
+|RF-01|Registro de membro|
+|Objetivos associados|Gerenciar parceiros|
+|Descrição|O sistema deve se comportar conforme descrito no seguinte caso de uso quando alguém solicita para se juntar a você como membro.|
+|Condição prévia|O requerente não é sócio da locadora e tem seu documento de identidade disponível.|
+|Sequência normal|<br>1. O funcionário da locadora solicita ao sistema que inicie o processo de registro de um novo membro.<br>2. O sistema solicita os dados do membro.<br>3. O funcionário da locadora solicita os dados necessários e a documentação do novo membro.<br>4. O funcionário da locadora verifica se os dados do novo membro coincidem com os da documentação fornecida.<br>5. O funcionário fornece os dados necessários e solicita que o sistema os armazene.<br>6. O sistema armazena os dados fornecidos, imprime o cartão de associado e informa ao funcionário da locadora que o processo foi concluído com sucesso.<br>7. O funcionário da locadora entrega o cartão ao novo membro.|
+|pós-condição|O requerente é membro da locadora e o saldo da sua conta é 0.|
+|Exceções|8. Se a documentação fornecida não estiver correta, o funcionário da locadora cancela a operação, então este caso de uso termina.<br>9. Caso o sistema detecte que o novo membro já é membro da locadora, o sistema informa a situação ao funcionário da locadora permitindo que ele modifique os dados fornecidos, então este caso de uso termina.<br>10. Se o funcionário da locadora solicitar o cancelamento da operação, o sistema cancela a operação, então este caso de uso termina.|
+|Desempenho|5 segundos|
+|Frequência esperada|10 vezes/dia|
+
