@@ -1,18 +1,25 @@
 package ApresentacaoTcc;
 
+import java.util.ArrayList;
+
 import static java.lang.System.out;
 
     //Classe filha de pessoa
 public class Professor extends Pessoa {
   //Parametros
-    private String disciplina;
+
     private boolean tutorDeAluno;
+    private ArrayList<Aluno> listaAlunos = new ArrayList<>();
 
     //Construtores
-    public Professor(String nome, String sobrenome, String disciplina, boolean tutorDeAluno) {
+    public Professor(String nome, String sobrenome ) {
         super(nome, sobrenome);
-        this.disciplina = disciplina;
-        this.tutorDeAluno = tutorDeAluno;
+
+
+    }
+    //Collections
+    public void addAluno(Aluno aluno){
+        listaAlunos.add(aluno);
     }
 
     //Sobrescrição
@@ -38,19 +45,21 @@ public class Professor extends Pessoa {
     }
 
     //Getters e Setters
-    public String getDisciplina() {
-        return disciplina;
-    }
 
-    public void setDisciplina(String disciplina) {
-        this.disciplina = disciplina;
-    }
 
-    public boolean isTutorDeAluno() {
-        return tutorDeAluno;
-    }
+        public boolean isTutorDeAluno() {
+            return tutorDeAluno;
+        }
 
-    public void setTutorDeAluno(boolean tutorDeAluno) {
-        this.tutorDeAluno = tutorDeAluno;
+        public void setTutorDeAluno(boolean tutorDeAluno) {
+            this.tutorDeAluno = tutorDeAluno;
+        }
+
+        public ArrayList<Aluno> getListaAlunos() {
+            return listaAlunos;
+        }
+
+        public void setListaAlunos(ArrayList<Aluno> listaAlunos) {
+            this.listaAlunos = listaAlunos;
+        }
     }
-}

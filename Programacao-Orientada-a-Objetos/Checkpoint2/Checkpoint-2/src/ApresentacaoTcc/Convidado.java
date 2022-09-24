@@ -3,9 +3,9 @@ package ApresentacaoTcc;
 import static java.lang.System.out;
 //Classe convidado
 public class Convidado{
-    //Métodos
+    //Parametros
     private String nome, sobrenome, idade, cpf;
-
+    public Aluno aluno;
 
     //Getters e Setters
 

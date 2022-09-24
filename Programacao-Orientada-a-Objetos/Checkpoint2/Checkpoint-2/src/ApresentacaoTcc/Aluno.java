@@ -2,6 +2,8 @@ package ApresentacaoTcc;
 
 import org.w3c.dom.ls.LSOutput;
 
+import java.util.ArrayList;
+
 import static java.lang.System.*;
 
     //Classe filha de pessoa
@@ -9,6 +11,7 @@ public class Aluno extends Pessoa{
     public String setNome;
     private String tituloDoTcc;
     private boolean arquivoEnviado;
+
 
     //Construtores
     public Aluno(String nome, String sobrenome, String tituloDoTcc, boolean arquivoEnviado) {
