@@ -27,6 +27,63 @@ Cria objetos de uma forma mais genérica.
 
 ***
 # Exemplo do padrão Factory Method
-Implementação da Factory Method usando uma classe Refrigerante que distrubui diferentes tipos dependendo da implementação das suas subclasses
+
+Implementação da Factory Method usando uma classe Refrigerante que distrubui diferentes tipos dependendo da implementação das suas subclasses.
 
 ![App Screenshot](UML-Exemplo-factory-method.png)
+
+**Código para classe abstrata Refrigerante**
+
+    public abstract class Refrigerante{
+
+        private String nome;
+
+        public String getName(){
+            return nome;
+        }
+
+        public void abrir (){
+            System.out.println ("Você abrir uma lata de: " + getName());
+        }
+    }
+
+**Código da classe Refrigerante Cola**
+
+    public class RefriCola extends Refrigerante{
+
+        public RefriCola(){
+            setName("Koka Kola");
+        }
+
+        private void setName(String koka_kola) {
+        }
+    }
+
+
+**Código da classe Refrigerante Laranja**
+
+    public class RefriLaranja extends Refrigerante{
+
+        public RefriLaranja(){
+            setName("Laranja");
+        }
+
+        private void setName(String laranja) {
+        }
+    }
+
+**Código da classe Refrigerante Factory**
+
+    public class RefrigeranteFactory{
+
+        public Refrigerante fazerRefrigerante(String tipo){
+
+            Refrigerante regri = null;
+
+            if(tipo.equals("K")){
+            return new RefriCola();
+
+        }else if(tipo.equals("L")){
+            return new RefriLaranja();
+        }else return null;
+    }}

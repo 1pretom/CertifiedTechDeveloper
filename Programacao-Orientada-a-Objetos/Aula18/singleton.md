@@ -1,6 +1,6 @@
 ## Singleton
 
-É um **design pattern criacional** que garante que uma classe tenha uma única instancia e defini um ponto global de acesso para ela.
+É um **design pattern criacional** que garante que uma classe tenha uma única instancia e define um ponto global de acesso para ela.
 - Uma classe gerencia sua própria instancia e evita que outras classe criem instancia dela.
 - Para criar uma instância nesse padrão, tem que passar pela classe obrigatóriamente e nenhuma outra classe pode instanciar ela.
 - Esse padrão também oferece um ponto de acesso a instancia.
