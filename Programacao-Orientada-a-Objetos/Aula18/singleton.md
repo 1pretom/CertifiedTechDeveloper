@@ -21,6 +21,8 @@ Como fica isso no UML?
 <br>
 
 
+
+
 É uma abordagem bastante antiga, a classe tem um construtor privado e exportamos um membro estático público para dar a cesso à instância exclusiva:
 
     public static GerenciadorDeJanelas {

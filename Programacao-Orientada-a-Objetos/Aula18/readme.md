@@ -6,6 +6,7 @@ Assim como em outras áreas, na programação orientada a objetos também existe
 São sugestões de como fazer algo, no caso, de como fazer um software ou resolver problemas.
 Ás vezes é vantajoso e às vezes não.
 
+
 É dividido em 3 categorias, que são: **Creational, Structural e Behavioural**
 - Creacional ou Criação: visa **abstrair** o processo de como os objetos são criados na aplicação e seus padrões são:
     - Abstract Factory

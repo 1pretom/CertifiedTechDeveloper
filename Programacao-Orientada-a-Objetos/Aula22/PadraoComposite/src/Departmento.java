@@ -1,3 +1,3 @@
-public interface Departamento {
-    void getName();
+public interface Departmento {
+    public void getName();
 }
