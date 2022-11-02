@@ -67,7 +67,10 @@ public class PessoaTest {
         p1.adicionarNomes(p1);
         Assertions.assertEquals(0,p1.colecao.size());//pega o valor esperado, compara ao tamanho da lista
 
+        p6.adicionarNomes(p6);
+        Assertions.assertEquals(1,p6.colecao.size());//Esse nome entra na lista pq entra nas condições
     }
+
 
     //testando se retorna true
     @Test

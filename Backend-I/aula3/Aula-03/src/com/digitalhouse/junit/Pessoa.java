@@ -80,6 +80,6 @@ public class Pessoa {
 
     //Para testar assert true e false
     public boolean returnTrue(){
-        return ((2+2) ==4);
+        return ((2+2) == 4);
     }
 }
