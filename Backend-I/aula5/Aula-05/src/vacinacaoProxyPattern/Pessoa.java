@@ -5,15 +5,15 @@ import java.util.Date;
 public class Pessoa {
     //Atributos
     private String nome, sobrenome, rg, nomeVacina;
-    private Date dataVacina;
+    private Date dataLiberacaoVacina;
 
     //Construtores
-    public Pessoa(String nome, String sobrenome, String rg, String nomeVacina, Date dataVacina) {
+    public Pessoa(String nome, String sobrenome, String rg, String nomeVacina, Date dataLiberacaoVacina) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.rg = rg;
         this.nomeVacina = nomeVacina;
-        this.dataVacina = dataVacina;
+        this.dataLiberacaoVacina = dataLiberacaoVacina;
     }
 
     //Getters e setters
@@ -49,11 +49,11 @@ public class Pessoa {
         this.nomeVacina = nomeVacina;
     }
 
-    public Date getDataVacina() {
-        return dataVacina;
+    public Date getDataLiberacaoVacina() {
+        return dataLiberacaoVacina;
     }
 
-    public void setDataVacina(Date dataVacina) {
-        this.dataVacina = dataVacina;
+    public void setDataLiberacaoVacina(Date dataLiberacaoVacina) {
+        this.dataLiberacaoVacina = dataLiberacaoVacina;
     }
 }

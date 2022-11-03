@@ -8,10 +8,10 @@ public class ServicoVacinarProxy implements Vacinar{
     //Método obrigatório
     @Override
     public void vacinarPessoa(Pessoa pessoa) {
-        if (pessoa.getDataVacina().before(new Date())){//data de hoje
+        if (pessoa.getDataLiberacaoVacina().after(new Date(2022,10,20))){
             new ServicoVacinar().vacinarPessoa(pessoa);
         }else {
-            System.out.println("Usuário ainda não pode ser vacinado");
+            System.out.println("Usuário " + pessoa.getNome() + " " + pessoa.getSobrenome()+ " ainda não pode ser vacinado");
         }
     }
 }
