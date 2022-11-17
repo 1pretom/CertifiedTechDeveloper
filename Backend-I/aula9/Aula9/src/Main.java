@@ -100,6 +100,6 @@ public class Main {
     //abrindo a conexão
     public static Connection getConnection() throws ClassNotFoundException, SQLException {//exceções que utiliza
         Class.forName("org.h2.Driver");//passando o "driver" traduz para o banco de dados
-        return DriverManager.getConnection("jdbc:h2:~/animal","sa","");//passando os parametros de como ele vai conectar
+        return DriverManager.getConnection("jdbc:h2:~/animal;AUTO_SERVER=TRUE","sa","");//passando os parametros de como ele vai conectar
     }
 }
