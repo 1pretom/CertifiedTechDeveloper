@@ -2,6 +2,8 @@
 
 # Padrão DAO
 
+Em formas gerais o padrão DAO serve pra organizar melhor o projeto, possibilitando que cada coisa cuide do que precisa cuidar
+
 ### Propósito
 
 Com o padrão DAO, separamos os dados propriamente ditos do local onde são armazenados ou tecnologia de armazenamento. Ou seja, para o nosso sistema, será indiferente se utilizarmos PostgreSQL ou MySQL, pois em ambos os casos a forma de comunicação será a mesma.
