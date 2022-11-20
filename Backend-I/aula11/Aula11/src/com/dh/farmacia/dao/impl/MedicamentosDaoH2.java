@@ -49,4 +49,12 @@ public class MedicamentosDaoH2 implements IDao<Medicamento> {
         }
         return medicamento;
     }
+
+//    @Override
+//    public Medicamento deletar(Medicamento medicamento) throws SQLException {
+//        String SQLDelete = String.format("DELETE")
+//        return medicamento;
+//    }
+
+
 }

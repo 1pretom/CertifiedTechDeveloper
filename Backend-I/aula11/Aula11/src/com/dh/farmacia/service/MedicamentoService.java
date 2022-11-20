@@ -12,4 +12,8 @@ public class MedicamentoService {
         IDao<Medicamento> medicamentoIDao = new MedicamentosDaoH2();
         return medicamentoIDao.salvar(medicamento);
     }
+//    public Medicamento deletar (Medicamento medicamento) throws SQLException{
+//        IDao<Medicamento> medicamentoIDao = new MedicamentosDaoH2();
+//        return medicamentoIDao.salvar(medicamento);
+//    }
 }
